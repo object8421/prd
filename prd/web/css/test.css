@@ -1,0 +1,52 @@
+.acount-box {
+  border-radius: 3px;
+  padding: 0 50px;
+  height: 400px;
+  background-color: #fff;
+}
+
+.acount-box .hd {
+  border-bottom: 1px #e4e4e4 solid;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 25px;
+}
+
+.acount-box .hd .lt {
+  font-size: 20px;
+}
+
+.acount-box .hd span {
+  color: #21936a;
+  border-bottom: 2px #55cc99 solid;
+  padding: 0 8px;
+  font-size: 20px;
+}
+
+
+.acount-box .bd {
+  position: relative;
+  margin-top: 40px;
+}
+
+.acount-box .input-text {
+  width: 280px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border: 1px #e3e3e3 solid;
+  border-radius: 2px;
+  height: 36px;
+  line-height: 36px;
+  background-color: #f5f5f5;
+}
+
+.passport-wrap .my-btn-big, .acount-box .my-btn-big {
+  background: none repeat scroll 0 0 #55CC99;
+  color: #fff;
+  width: 300px;
+  height: 50px;
+  border: 0;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px 5px 5px 5px;
+}
