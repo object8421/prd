@@ -85,6 +85,13 @@
   visibility:hidden;
   word-wrap:break-word;
 }
+#u4_ann {
+  position:absolute;
+  left:483px;
+  top:726px;
+  width:1px;
+  height:1px;
+}
 #u6 {
   position:absolute;
   left:590px;
