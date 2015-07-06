@@ -61,21 +61,49 @@ dfn,em,i {
     font-style:normal; 
 }
 
-html,body{
-    min-width: 1024px;
-}
-
 body{
-	background: #14223c;
+    background: #14223c;
 }
 
 .wrapper{
-	background: #14223c url(txt.png) no-repeat center center;
+    position: relative;
+    background: #14223c url(txt.png) no-repeat center center;
+    background-size: 100% auto;
+}
+.qrimg{
+    width:200px;
+    height: 200px;
+    background: url(qr.png) no-repeat center center;
+    background-size: 100% auto;
+    position:absolute;
+    right:20px;
+    top:300px;
+}
+
+@media (max-width: 1024px){
+    .wrapper{
+        background-size: auto 100%;
+    }
+}
+
+@media (max-height: 635px){
+    .wrapper{
+        background: #14223c url(txt.png) no-repeat bottom center;
+        background-size: auto 600px;
+    }
+    .qrimg{
+        top:20px;
+        right:20px;
+    }
 }
 </style>
+<script type="text/javascript">
+    //alert(window.screen.width+ " * "+window.screen.height);
+</script>
 </head>
 <body class="wrapper">
 
+<div class="qrimg"></div>
 
 </body>
 </html>
